@@ -10,9 +10,28 @@ const Success = () => {
         justifyContent: "center",
       }}
     >   
-        Order has been created successfully<br />
-        Successfull. Your order is being prepared...
-      <button style={{ padding: 10, marginTop: 20 }}>Go to Homepage</button>
+      <button
+        style={{
+          border: "none",
+          backgroundColor: "green",
+          borderRadius: "20px",
+          padding: "20px",
+          color: "white",
+          fontSize: "25px",
+          fontWeight: 500,
+          marginBottom: "10px" 
+        }}
+      >
+        Successfull
+      </button>
+      <div style={{
+        textAlign: "center",
+        fontSize: "15px"
+      }}
+      >
+        Order Placed<br />
+        Thanks for choosing Bbaazar.
+      </div>
     </div>
   );
 };
